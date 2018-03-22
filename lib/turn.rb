@@ -47,6 +47,8 @@ def turn(board)
    if !valid_move?(board, myIndex) 
      turn(board)
    end
+   
+   move(board, myIndex, "X")
 end
 
 

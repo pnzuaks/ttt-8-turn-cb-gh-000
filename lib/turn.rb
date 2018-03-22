@@ -44,7 +44,9 @@ def turn(board)
    
    myIndex = input_to_index(input)
    
-   return valid_move?(board, myIndex)
+   if !valid_move?(board, myIndex) 
+     turn(board)
+   end
 end
 
 

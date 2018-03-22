@@ -33,7 +33,7 @@ def input_to_index(num)
 end
   
 def move(board, index, token = "X")
-  input_to_index(index)
+  # input_to_index(index)
   board[index] = token
 end
 
